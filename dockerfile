@@ -26,7 +26,7 @@ ADD code /code
 RUN pip install --upgrade pip
 # RUN pip install -r /code/requirements.txt
 RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
-RUN pip salesforce-lavis==1.0.2
+RUN pip salesforce-lavis
 RUN pip transformers==4.26.1
 RUN pip Pillow==9.4.0
 RUN pip numpy==1.24.2

@@ -1,6 +1,6 @@
-# Welcome to the VOXReality Horizon Europe Project 
+# Contribution to the VOXReality Horizon Europe Project 
 
-Below you'll find the necessary instructions in order to run our provided code.
+Below you'll find the necessary instructions in order to run the provided code.
 
 The instructions refer to the All-in-One solution which includes 6 endpoints and utilizes 4 vision-language SoTA models.
 

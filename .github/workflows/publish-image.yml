@@ -13,5 +13,6 @@ jobs:
           docker build. -t stefbil/inference-endpoints-for-llms:latest
       - name: publish
         run: |
+          docker login -u stefbil -p ${{ secrets.DOCKER_HUB_TOKEN }}
           docker push stefbil/inference-endpoints-for-llms:latest
       

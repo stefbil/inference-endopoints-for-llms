@@ -1,6 +1,6 @@
-# Welcome to the VOXReality Horizon Europe Project 
+# Contribution to the VOXReality Horizon Europe Project 
 
-Below you'll find the necessary instructions in order to download and run our api.
+Below you'll find the necessary instructions in order to download and run the api.
 
 
 ## 1. Requirements
@@ -109,7 +109,7 @@ For convenience and demonstration purposes, the whole system's functionality is 
 
 ## 5. Useful info
 ---
-1. We recommend using a GPU of at least 12GBs of VRAM, but that is the peak usage we measured by using every single model included
+1. It is recommended to use a GPU of at least 12GBs of VRAM, but that is the peak usage we measured by using every single model included
 2. The image that uses all 6 endpoints at once (pdrak/voxreality:1) has the following requirements:
    1.  The api uses around 7 - 8 GBs of VRAM when it first loads and stays idle
    2.  Even if you don't own a GPU with 12GBs of VRAM, you can still use the api by using *some* of the models provided below

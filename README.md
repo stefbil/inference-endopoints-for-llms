@@ -72,4 +72,4 @@ In order to build the docker images from scratch you should follow the instructi
    4. To stop the container run the `WIN_GPU_Stop_Container.bat` script. This script will create a `Dumps` folder and copy all the tests you have run e.g. uploaded photos and questions.
 
 
-Further instructions on running the docker images can be found in the [here](DockerInstruction.md).
+Further instructions on running the docker images can be found in the [here](DockerInstructions.md).

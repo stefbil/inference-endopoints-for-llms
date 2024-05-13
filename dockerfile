@@ -24,8 +24,18 @@ RUN apt install -y net-tools
 # INSTALL PYTHON PACKAGES
 ADD code /code
 RUN pip install --upgrade pip
-RUN pip install -r /code/requirements.txt
-
+#RUN pip install -r /code/requirements.txt
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
+RUN pip salesforce-lavis==1.0.2
+RUN pip transformers==4.26.1
+RUN pip Pillow==9.4.0
+RUN pip numpy==1.24.2
+RUN pip fastapi==0.93.0
+RUN pip uvicorn==0.20.0
+RUN pip pydantic==1.10.6
+RUN pip requests==2.22.0
+RUN pip wget==3.2
+RUN pip python-multipart==0.0.6
 
 # COPY MODELS INTO ROOT OF CONTAINER
 RUN mkdir -p -v root/.cache/

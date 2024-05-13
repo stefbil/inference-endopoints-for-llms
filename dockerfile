@@ -26,16 +26,16 @@ ADD code /code
 RUN pip install --upgrade pip
 # RUN pip install -r /code/requirements.txt
 RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
-RUN pip salesforce-lavis
-RUN pip transformers==4.26.1
-RUN pip Pillow==9.4.0
-RUN pip numpy==1.24.2
-RUN pip fastapi==0.93.0
-RUN pip uvicorn==0.20.0
-RUN pip pydantic==1.10.6
-RUN pip requests==2.22.0
-RUN pip wget==3.2
-RUN pip python-multipart==0.0.6
+RUN pip install salesforce-lavis==1.0.2
+RUN pip install transformers==4.26.1
+RUN pip install Pillow==9.4.0
+RUN pip install numpy==1.24.2
+RUN pip install fastapi==0.93.0
+RUN pip install uvicorn==0.20.0
+RUN pip install pydantic==1.10.6
+RUN pip install requests==2.22.0
+RUN pip install wget==3.2
+RUN pip install python-multipart==0.0.6
 
 # COPY MODELS INTO ROOT OF CONTAINER
 RUN mkdir -p -v root/.cache/

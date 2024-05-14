@@ -24,8 +24,7 @@ RUN apt install -y net-tools
 # INSTALL PYTHON PACKAGES
 ADD code /code
 RUN pip install --upgrade pip
-# RUN pip install -r /code/requirements.txt
-RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
+RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
 RUN pip install salesforce-lavis==1.0.2
 RUN pip install transformers==4.26.1
 RUN pip install Pillow==9.4.0

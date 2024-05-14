@@ -8,7 +8,7 @@ The instructions refer to the All-in-One solution which includes 6 endpoints and
 ## 1. Requirements
 ---
 1. CUDA compatible GPU 
-   1. The more VRAM the better but we recommend at least 12GB of VRAM
+   1. The more VRAM the better but at least 12GB of VRAM are recommended
 2. For LINUX (tested on Ubuntu 20.04)
    1. The system was tested on Nvidia proprietary driver 515 and 525
    2. Make sure Docker is installed on your system. For instructions you can refer to the [official docker guide](https://docs.docker.com/desktop/install/ubuntu/)
@@ -22,16 +22,16 @@ One you have docker up and running you can move to cloning the repository.
 ## 2. Cloning the repository
 ---
 1. Start by cloning the repository by running the following command:
-   `git clone https://gitlab.com/horizon-europe-voxreality/vision-and-language-models/all-in-one.git`
+   
 
 ## 3. Building the docker images
 ---
 In order to build the docker images from scratch you should follow the instructions below:
 
-1. VOXReality All in One
+1. inference-endopoints-for-llms
    1. You should have the following directory structure:
       ```
-      VOXReality All in One
+      inference-endopoints-for-llms
       ├── code
       │   ├── demo.py
       │   ├── extracting_data.py

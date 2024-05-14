@@ -31,7 +31,7 @@ In order to build the docker images from scratch you should follow the instructi
 1. inference-endopoints-for-llms
    1. You should have the following directory structure:
       ```
-      inference-endopoints-for-llms
+      inference-endpoints-for-llms
       ├── code
       │   ├── demo.py
       │   ├── extracting_data.py

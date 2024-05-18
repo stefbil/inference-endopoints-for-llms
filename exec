@@ -1,5 +1,4 @@
 #!/bin/bash
-# DRAK
 # IMPORTANT!: There is a discrepancy between DOS and UNIX carriage return (\r). This script must be UNIX encoded. e.g. Notepad++: Edit>EOL Conversion>Unix (LF)
 
 echo "*****************************"

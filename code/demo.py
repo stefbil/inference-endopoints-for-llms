@@ -1,6 +1,6 @@
 # %pip install-r requirements.txt
-
 # from IPython.display import clear_output, Image, display
+
 import PIL.Image
 import io
 import json
@@ -18,7 +18,6 @@ import os
 import sys
 import main
 from typing import Union
-
 
 
 def vqalxmert(URL, questions):

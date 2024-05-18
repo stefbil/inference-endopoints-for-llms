@@ -1,6 +1,3 @@
-# CERTH-ITI-VCL3D
-# Authors: {petros.drakoulis, stefbil, atdovas}@iti.gr
-
 # INHERIT FROM BASE IMAGE
 FROM nvcr.io/nvidia/cuda:11.6.0-cudnn8-devel-ubuntu20.04
 

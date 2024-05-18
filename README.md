@@ -74,3 +74,10 @@ In order to build the docker images from scratch you should follow the instructi
 
 
 Further instructions on running the docker images can be found in the [here](DockerInstructions.md).
+
+Disclaimer:
+1.  The api serves the models developed in 4 SoTA projects:
+ 2.  Here's the [code](https://github.com/salesforce/LAVIS/tree/main/projects/pnp-vqa) for the [PNP-VQA paper](https://arxiv.org/abs/2210.08773)
+ 3.  Here's the [code](https://github.com/huggingface/transformers/tree/main/examples/research_projects/lxmert) for the [LXMERT paper](https://arxiv.org/abs/1908.07490)
+ 4.  Here's the [ViT_GPT2 model](https://huggingface.co/nlpconnect/vit-gpt2-image-captioning) provided by [NLP Connect](https://github.com/nlpconnect)
+ 5.  Here's the [BLIP model](https://huggingface.co/Salesforce/blip-vqa-base) from the [paper](https://arxiv.org/abs/2201.12086)

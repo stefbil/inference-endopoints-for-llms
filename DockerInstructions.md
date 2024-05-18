@@ -1,6 +1,6 @@
-# Contribution to the VOXReality Horizon Europe Project 
+# Docker Instructions for the inference-endpoints-for-llms project
 
-Below you'll find the necessary instructions in order to download and run the api.
+Below you'll find the necessary instructions in order to download and run the docker images.
 
 
 ## 1. Requirements
@@ -18,17 +18,13 @@ One you have docker up and running you can move to downloading the image.
 ## 2. Downloading the image
 ---
 1. Start by pulling the desired docker image 
-   1. `sudo docker pull pdrak/voxreality:1`
-   2. `sudo docker pull pdrak/voxreality:lxmert`
-   3. `sudo docker pull pdrak/voxreality:gpt2`
+   1. `sudo docker pull stefbil/inference-endopoints-for-llms:v1`
 2. Makes sure that the image appears on your system by running `sudo docker images` 
 
 ## 3. Running the docker containter
 ---
 1. Run the docker container by executing the following command:
-   1. `sudo docker run -it -p 5035:5035 --network host --gpus all --name pdrak_voxreality_1 pdrak/voxreality:1`
-   2. `sudo docker run -it -p 5036:5036 --network host --gpus all --name pdrak_voxreality_lxmert pdrak/voxreality:lxmert`
-   3. `sudo docker run -it -p 5037:5037 --network host --gpus all --name pdrak_voxreality_gpt2 pdrak/voxreality:gpt2`
+   1. `sudo docker run -it -p 5035:5035 --network host --gpus all --name llms stefbil/inference-endopoints-for-llms:v1`
    Note that the `-p` argument exposes the apropriate port to listening and receiving events. The `--name` is the container name which can be changed at will.
 2. The container should start downloading the necessary models in order to run properly (if they aren't present).
 3. Once finished (many minutes, depening on internet speed), you should see a message saying: `Uvicorn running on http://[HOST PC Public IP]:PORT`

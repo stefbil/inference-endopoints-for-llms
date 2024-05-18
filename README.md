@@ -1,8 +1,8 @@
-# Contribution to the VOXReality Horizon Europe Project 
+# Inference Endpoints for Large Language Models
 
 Below you'll find the necessary instructions in order to run the provided code.
 
-The instructions refer to the All-in-One solution which includes 6 endpoints and utilizes 4 vision-language SoTA models.
+There are 6 endpoints included and 4 vision-language SoTA models are utilized.
 
 
 ## 1. Requirements
@@ -22,6 +22,7 @@ One you have docker up and running you can move to cloning the repository.
 ## 2. Cloning the repository
 ---
 1. Start by cloning the repository by running the following command:
+   `git clone https://github.com/stefbil/inference-endpoints-for-llms.git`
    
 
 ## 3. Building the docker images
